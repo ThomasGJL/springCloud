@@ -1,0 +1,20 @@
+# Tomcat
+server:
+  port: 8898
+
+# Spring
+spring:
+  application:
+    # 应用名称
+    name: springbootlog
+  profiles:
+    # 环境配置
+    active: dev
+
+  datasource:
+    password: ENC(YXetlPNoibP0j0RAszjwBA==)
+
+jasypt:
+  encryptor:
+    password: secret
+
