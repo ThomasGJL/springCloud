@@ -28,7 +28,7 @@ public class PoetTest {
                 .build();
 
         //javaFile.writeTo(System.out);
-        javaFile.writeTo(new File("C:\\Users\\Thomas\\IdeaProjects\\springboot-log\\src\\main\\java"));
+        javaFile.writeTo(new File("C:\\Users\\Thomas\\IdeaProjects\\springCloud\\springboot-log\\src\\main\\java"));
     }
 
 

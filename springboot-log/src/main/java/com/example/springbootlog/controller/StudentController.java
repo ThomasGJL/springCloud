@@ -5,8 +5,6 @@ import com.example.springbootlog.annotation.SystemLog;
 import com.example.springbootlog.entity.Student;
 import com.example.springbootlog.util.EncryptUtil;
 import com.example.springbootlog.util.PropertiesUtil;
-import com.kyndryl.concur.api.impl.ConcurApiServiceImpl;
-import com.kyndryl.concur.entity.concur.ConcurOauthToken;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -40,8 +38,6 @@ public class StudentController {
 
     @Autowired
     RestTemplate restTemplate;
-
-    private ConcurOauthToken concurOauthToken;
 
     @GetMapping("/list")
     @SystemLog("学生列表")

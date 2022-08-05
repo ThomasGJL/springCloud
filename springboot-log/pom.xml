@@ -49,12 +49,6 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.kyndryl.concur</groupId>
-            <artifactId>concur-client</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-
         <!-- mysql -->
         <dependency>
             <groupId>mysql</groupId>
